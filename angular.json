@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/js-confetti/dist/js-confetti.min.js"
+            ]
           },
           "configurations": {
             "production": {

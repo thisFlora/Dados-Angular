@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+.img {
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  background-color: #d5aaff;
+  border-radius: 20px;
+}
+
+div {
+  z-index: 950;
+}
+
+canvas {
+  height: 100%; /* we need these for full-screen effect */
+  width: 100%;
+  position: fixed;
+  z-index: 900;
+}
+
+.contador{
+    font-size: 18px;
+    align-self: flex-start;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 85%;
+    margin-right: 10px;
+    background-color: rgba(224, 187, 228, 0.5);
+    border-radius: 30px;
+
+}
